@@ -1,0 +1,20 @@
+
+a {
+ text-decoration: none; 
+}
+
+a:hover {
+  background-color: aqua;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.input-required {
+  margin-left: 5px;
+}
