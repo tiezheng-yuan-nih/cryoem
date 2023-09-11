@@ -45,10 +45,10 @@ export default {
 
 <style scoped>
 .container.input {
-  width: 400px;
+  width: 300px;
   margin: 10px;
   padding: 5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
 }

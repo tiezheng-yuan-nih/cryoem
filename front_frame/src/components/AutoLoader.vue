@@ -2,15 +2,17 @@
   <div>
     <fieldset>
       <legend>AutoLoader</legend>
-      <div>
-        <button @click="addAutolocader">Add</button>
-      </div>
       <div class="container autoloader">
         <AutoloaderPosition
           v-for="item in autoloader"
           :key="item.position"
           :data="item"
         ></AutoloaderPosition>
+      </div>
+      <div class="autoloader-add" @click="addAutolocader">
+        <div class="autoloader-add-inner">
+          <div id="autoloader-add-sign">+</div>
+        </div>
       </div>
     </fieldset>
   </div>
@@ -45,5 +47,26 @@ export default {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.autoloader-add {
+  width: 120px;
+  height: 120px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.autoloader-add-inner {
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#autoloader-add-sign {
+  font-size: 40px;
 }
 </style>

@@ -14,5 +14,10 @@ export default {
     };
     obj.name = "_" + obj.position
     state.autoloader.push(obj);
-  }
+  },
+  deleteAutoloader(state, del_position) {
+    state.autoloader = state.autoloader.filter((el)=>{
+      return el.position != del_position;
+    });
+  },
 };

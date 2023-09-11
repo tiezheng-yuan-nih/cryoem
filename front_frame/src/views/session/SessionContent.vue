@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import SessionGeneral from "../components/SessionGeneral";
-import CollectionParams from "../components/CollectionParams";
-import MultiShots from "../components/MultiShots";
-import AutoLoader from "../components/AutoLoader";
+import SessionGeneral from "../../components/SessionGeneral";
+import CollectionParams from "../../components/CollectionParams";
+import MultiShots from "../../components/MultiShots";
+import AutoLoader from "../../components/AutoLoader";
 
 export default {
   name: "SessionContent",

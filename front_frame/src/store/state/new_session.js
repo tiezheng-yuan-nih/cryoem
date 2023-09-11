@@ -187,4 +187,37 @@ export default {
     min: 0,
     max: 100,
   },
+  
+  // autoloader
+  hole_position: {
+    name: "hole_position",
+    label: "Position",
+    value: 1,
+    min: 0,
+    max: 100,
+  },
+  hole_type: {
+    name: "hole_type",
+    label: "Hole Type",
+    value: "",
+    options: ["R1", "R2/2", "R2/3"],
+  },
+  mesh_size: {
+    name: "mesh_size",
+    label: "Mesh Size",
+    value: "",
+    options: [200, 300, 400],
+  },
+  mesh_material: {
+    name: "mesh_material",
+    label: "Mesh Material",
+    value: "",
+    options: ["Carbon", "Gold"],
+  },
+  hole_protocol: {
+    name: "hole_protocol",
+    label: "Protocol",
+    value: "auto",
+    options: ["auto", "SPA", "SPA-Ptolemy"],
+  },
 };

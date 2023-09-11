@@ -9,13 +9,13 @@
           <router-link to="/">Home</router-link>
         </li>
         <li>
-          <router-link to="/session">New Session</router-link>
+          <router-link to="/session">Run Smartscope</router-link>
         </li>
         <li>
-          <router-link to="/autoscreening">Autoscreening</router-link>
+          <router-link to="/autoscreening">Browse Session</router-link>
         </li>
         <li>
-          <router-link to="/processing">Data Collection</router-link>
+          <router-link to="/processing">Collect Data</router-link>
         </li>
       </ul>
     </div>

@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import SessionLeft from "./SessionLeft";
-import SessionContent from "./SessionContent";
+import SessionLeft from "./session/SessionLeft";
+import SessionContent from "./session/SessionContent";
 
 export default {
   name: "CreateSession",
