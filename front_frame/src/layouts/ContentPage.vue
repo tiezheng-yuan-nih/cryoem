@@ -20,7 +20,7 @@ export default {
 
 <style>
 .container.content {
-  height: 600px;
+  height: 1200px;
   background-color: lightblue;
 }
 </style>
